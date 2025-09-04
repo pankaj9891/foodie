@@ -10,7 +10,7 @@
     <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
 
     <!-- 
     - custom css link
@@ -42,13 +42,13 @@
                 <a href="#" class="logo">Foodie<span class="span">.</span></a>
             </h1>
 
-            <nav class="navbar">
+            <nav class="navbar" data-navbar>
                 <ul class="navbar-list">
-                    <li class="nav-item"><a href="#" class="navbar-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="navbar-link">About Us</a></li>
-                    <li class="nav-item"><a href="#" class="navbar-link">Shop</a></li>
-                    <li class="nav-item"><a href="#" class="navbar-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="navbar-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+                    <li class="nav-item"><a href="#about" class="navbar-link" data-nav-link>About Us</a></li>
+                    <li class="nav-item"><a href="#food-menu" class="navbar-link" data-nav-link>Shop</a></li>
+                    <li class="nav-item"><a href="#blog" class="navbar-link" data-nav-link>Blog</a></li>
+                    <li class="nav-item"><a href="#contact-us" class="navbar-link" data-nav-link>Contact Us</a></li>
                 </ul>
             </nav>
 
@@ -60,7 +60,7 @@
 
                 <button class="btn btn-hover">Reservation</button>
 
-                <button class="nav-toggle-btn" aria-label="Toggle Menu">
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
                     <span class="line top"></span>
                     <span class="line middle"></span>
                     <span class="line bottom"></span>
@@ -216,7 +216,7 @@
                 </div>
             </section>
 
-            <section class="section section-divider gray about">
+            <section class="section section-divider gray about" id="about">
                 <div class="container abt">
                     <div class="about-banner">
                         <img src="./assets/images/about-banner.png" alt="burger and drink" width="509" height="459"
@@ -818,7 +818,7 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer" id="contact-us">
         <div class="footer-top" style="background-image: url(./assets/images/footer-illustration.png);">
             <div class="container">
                 <div class="footer-brand">
@@ -929,7 +929,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <p class="copyright-text">
-                    &copy; 2022 <a href="#" class="copyright-link">Pankaj Kumar</a> All Rights Reserved.
+                    &copy; 2025 <a href="#" class="copyright-link">Pankaj Kumar</a> All Rights Reserved.
                 </p>
             </div>
         </div>
